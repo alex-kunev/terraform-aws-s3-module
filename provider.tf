@@ -1,12 +1,4 @@
 terraform {
-  cloud {
-    organization = "alexk-learn"
-
-    workspaces {
-      name = "terraform-course-cloud"
-    }
-  }
-
   required_providers {
     random = {
       source  = "hashicorp/random"
